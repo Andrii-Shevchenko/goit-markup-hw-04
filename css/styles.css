@@ -130,6 +130,15 @@ img {
 
 .page-hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      to top,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: ;
   min-width: 1440px;
   height: 600px;
   padding: 188px 0;
@@ -338,6 +347,11 @@ img {
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social-link {
+  font-weight: 500;
+  color: #fff;
 }
 
 /* #endregion Footer */
